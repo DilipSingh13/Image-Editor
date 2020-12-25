@@ -1,14 +1,13 @@
 <?php
-$email="root";
-$password="root";
-$host = "localhost"; 
-$dbname = "CPP_TEST"; 
+$password="photoeditor";
+$host = "photoeditor.cvxb8tcasiix.us-east-1.rds.amazonaws.com"; 
+$dbname = "photoeditor"; 
  
 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'); 
  
     try { 
 
-        $db = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", "root", $password, $options); 
+        $db = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", "admin", $password, $options); 
         
     } catch(PDOException $ex) { 
 
