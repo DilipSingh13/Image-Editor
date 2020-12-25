@@ -28,17 +28,17 @@ else{?>
   <!-- login page layout division-->
 <div>
   <div class="form">
-    <form action= "editor.html" method="post" role="form">
+    <form action= "editor.html" role="form">
       <!-- Redirect to editor -->
       <button type="submit" value="editor">Open Image Editor</button>
     </form>
 
-    <form action= "upload.php" method="post" role="form">
+    <form action= "upload.php" role="form">
       <!-- Redirect to upload -->
       <button type="submit" value="upload">Upload Edited Image</button>
     </form>
 
-    <form action= "Download.php" method="post" role="form">
+    <form action= "Download.php" role="form">
       <!-- Redirect to download -->
       <button type="submit" value="download">Download Edited Image</button>
     </form>
