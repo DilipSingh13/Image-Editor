@@ -8,7 +8,7 @@ if (!empty($_POST)) {
     $email = $_POST['email'];
     $password=$_POST['password'];
     
-    $query = "SELECT * FROM users_rec WHERE email = :email";
+    $query = "SELECT * FROM Users WHERE email = :email";
     
     $query_params = array(
         ':email' => $_POST['email']
